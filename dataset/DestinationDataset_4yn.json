@@ -1,0 +1,24 @@
+{
+	"name": "DestinationDataset_4yn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDiabetes",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Diabetes.csv",
+				"container": "liladfadminblobsink"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "LILADFAdmin",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "620c344d-b5e3-474a-9e1d-11323e0dc632",
+		"tenantId": "cc5ba5ab-2327-40a6-8a78-cd5b579cd49c"
+	}
+}
